@@ -14,12 +14,12 @@ include_directories(${GTEST}/include)
 set(GILDED_ROSE_SOURCE_FILES
     GildedRose.cc
     GildedRose.h
-    GildedRoseUnitTests.cc CategorizedItem.cpp CategorizedItem.h)
+    GildedRoseUnitTests.cc ItemStrategy.cpp ItemStrategy.h)
 
 set(GILDED_ROSE_TEXT_TESTS_SOURCE_FILES
     GildedRose.cc
     GildedRose.h
-    GildedRoseTextTests.cc CategorizedItem.cpp CategorizedItem.h)
+    GildedRoseTextTests.cc ItemStrategy.cpp ItemStrategy.h)
 
 set(SOURCE_FILES
     ${GILDED_ROSE_SOURCE_FILES}
